@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header class="header">
+        <!-- <a href="#" class="logo"><span>Devshree Shah</span></a> -->
+        <a href="#" class="logo">
+            <img src="logo.png" alt="Logo">
+          </a>          
+
+        <ul class="nav-links">
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#about">About-Me</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <a href="https://github.com/shahdevshree" target="_blank">
+            <button class="visit-btn">Visit GitHub</button>
+          </a>
+          
+    </header>    
+
+    <section id="home" class="home">
+        <div class="home-container">
+            <img src="image.jpg" alt="">
+
+            <div class="info-box">
+
+                <div class="text">
+                    <h3>Hi, I'm</h3>
+                    <h1>Devshree Shah</h1>
+                    <span>Software Developer</span>
+                </div>
+
+                <div class="btn-group">
+                    <a href="files/Dev_Resume.pdf" class="btn" download>Download CV</a>
+                    <!-- <div class="btn">Download CV</div> -->
+                </div>
+
+                <div class="socials">
+                    <a href="https://github.com/shahdevshree" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/devshree-shah-087a67209/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>              
+
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        
+        <!-- About Me Paragraph -->
+        <div class="about-text">
+          <p style="text-align: justify;">
+            I’m a passionate software developer currently pursuing my master’s at Concordia University. With over 2 years of hands-on 
+            experience in software development, I specialize in designing and building scalable, efficient applications. 
+            My focus is on clean architecture, test-driven development, and performance optimization. I thrive in dynamic environments, 
+            collaborating with teams to solve complex problems. With a quick learning ability and a strong problem-solving 
+            mindset, I’m committed to delivering impactful software solutions.
+          </p>
+        </div>
+      
+        <!-- Education Section -->
+        <h3 class="subsection-title">Education</h3>
+        <div class="education-grid">
+          <div class="education-card">
+            <i class='bx bxs-graduation'></i>
+            <p class="degree">Masters in Applied Computer Science</p>
+            <p class="institute">Concordia University</p>
+            <p class="year">2024 - Present</p>
+          </div>
+      
+          <div class="education-card">
+            <i class='bx bxs-graduation'></i>
+            <p class="degree">B.Tech in Computer Science and Engineering</p>
+            <p class="institute">Indus University</p>
+            <p class="year">2018 - 2022</p>
+          </div>
+        </div>
+      
+        <!-- Tools Section -->
+        <h3 class="subsection-title">Tools I Use</h3>
+        <div class="tools-grid">
+          <div class="tab-item resume-item"><i class='bx bxl-html5'></i><p>HTML5</p></div>
+          <div class="tab-item resume-item"><i class='bx bxl-css3'></i><p>CSS3</p></div>
+          <div class="tab-item resume-item"><i class='bx bxl-c-plus-plus'></i><p>C++</p></div>
+          <div class="tab-item resume-item"><i class='bx bxl-javascript'></i><p>JavaScript</p></div>
+          <div class="tab-item resume-item"><i class='bx bxl-java'></i><p>Java</p></div>
+          <div class="tab-item resume-item"><i class='bx bxl-python'></i><p>Python</p></div>
+          <div class="tab-item resume-item"><i class='bx bxl-git'></i><p>Git</p></div>
+          <div class="tab-item resume-item"><i class='bx bxl-react'></i><p>React.js</p></div>
+          <div class="tab-item resume-item"><i class='bx bxl-nodejs'></i><p>Node.js</p></div>
+          <div class="tab-item resume-item"><i class='bx bxl-django'></i><p>Django</p></div>
+          <div class="tab-item resume-item"><i class='bx bxl-mongodb'></i><p>MongoDB</p></div>
+          <div class="tab-item resume-item"><i class='bx bxl-postgresql'></i><p>PostgreSQL</p></div>
+          <div class="tab-item resume-item"><i class='bx bxl-aws'></i><p>AWS</p></div>
+          <div class="tab-item resume-item"><i class='bx bxl-docker'></i><p>Docker</p></div>
+          <div class="tab-item resume-item"><i class='bx bxl-kubernetes'></i><p>Kubernetes</p></div>
+        </div>
+      </section>
+      
+
+    <section id="experience" class="experience">
+        <h2 class="section-title">Experience</h2>
+        <div class="experience-info">
+            <div class="grid">
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-laptop"></i>
+                    <h3>Elixir Techne</h3>
+                    <span>Software Developer Intern</span>
+                    <h4>Jan ’23 - May ’23</h4>
+                    <p>Engineered a Task Management System using Python and Django Rest Framework with modules for task tracking, 
+                        time logging, and issue resolution. Enhanced system performance and collaborated in Agile teams to deliver a 
+                        seamless user experience with thorough documentation.</p>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h3>Arth Infosoft Pvt. Ltd.</h3>
+                    <span>Python Developer Intern</span>
+                    <h4>Jan ’22 - Apr ’22</h4>
+                    <p>Built and optimized an Expense Management System using Python, Django, Bootstrap, and JavaScript, enhancing features 
+                        like Add Money, View Expenses, and user authentication. Improved transaction accuracy by 10% and 
+                        delivered a smooth, user-friendly UI/UX for seamless navigation and functionality.</p>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h3>Concordia University</h3>
+                    <span>Graduate Teaching Assistant</span>
+                    <h4>Jan ’25 - Present</h4>
+                    <p>Designed and led dynamic, interactive tutorial sessions to maintain student interest and promote active participation. 
+                        Enhanced understanding through open discussions, collaborative problem-solving, and peer-to-peer learning. 
+                        Encouraged practical application of concepts, enabling students to connect coursework with real-world situations.</p>
+                </div>
+
+            </div>
+
+            <!-- <img src="image.jpg" alt=""> -->
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">My Work</h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <img src="Tubelytics.png" alt="">
+                <h3>Reactive TubeLytics</h3>
+                <h5>Real-time YouTube Analytics</h5>
+                <div class="btn-group">
+                    <a href="https://github.com/DivyeshPatel6901/SOEN6441-TubeLytics" target="_blank" rel="noopener noreferrer" class="btn">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                    <!-- <div class="btn">Repo</div> -->
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="seamCarving.webp" alt="">
+                <h3>Seam Carving</h3>
+                <h5>Content-Aware Image Resizing</h5>
+                <div class="btn-group">
+                    <a href="https://github.com/mehtavandit/COMP_6771_Image_Processing_Project" target="_blank" rel="noopener noreferrer" class="btn">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                    <!-- <div class="btn">Repo</div> -->
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="fitness.jpg" alt="">
+                <h3>SculptIQ</h3>
+                <h5>Sculpting your body with smart decisions</h5>
+                <div class="btn-group">
+                    <a href="https://sculpt-iq.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                    <!-- <div class="btn">Repo</div> -->
+                </div>
+            </div>
+
+        </div>
+
+        <!-- New Upcoming Projects Section -->
+        <div class="upcoming-projects">
+            <h3 class="subsection-title">Upcoming Projects</h3>
+            <div class="projects-grid centered-projects">
+                <div class="project-card">
+                    <img src="clone.webp" alt="">
+                    <h3>CineCraft</h3>
+                    <h5>Crafting your cinema experience intelligently</h5>
+                    <p>Coming Soon...</p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section contact" id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-wrapper">
+            <form action="https://formsubmit.co/shahdevshree7@gmail.com" method="POST" class="contact-form">
+                <h3>Let's Work Together!</h3>
+                <div class="field-box">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                    <input type="text" name="phone" placeholder="Phone Number" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <div class="contact-btn">
+                    <button type="submit" class="btn">Send Message</button>
+                </div>
+            
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+        </div>
+     </section>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="#home">Home</a>
+            </li>
+
+            <li>
+                <a href="#about">About-Me</a>
+            </li>
+
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+
+        </ul>
+        <p class="copyright">© 2025 Devshree Shah | All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
