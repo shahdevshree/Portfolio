@@ -350,6 +350,70 @@ section{
     color: transparent;
 }
 
+/* Timeline Container */
+.timeline {
+    position: relative;
+    margin: 3rem auto;
+    padding: 2rem 0;
+    width: 100%;
+    max-width: 960px;
+  }
+  
+  /* Vertical center line */
+  .timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 4px;
+    background-color: #e0e0e0;
+    transform: translateX(-50%);
+    z-index: 0;
+  }
+  
+  /* Timeline item container */
+  .timeline-item {
+    position: relative;
+    width: 50%;
+    padding: 1.5rem 2rem;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+  }
+  
+  .timeline-item:nth-child(odd) {
+    left: 0;
+    text-align: right;
+  }
+  
+  .timeline-item:nth-child(even) {
+    left: 50%;
+    text-align: left;
+  }
+  
+  
+  /* Content box */
+  .timeline-content {
+    background-color: #ffffff;
+    padding: 1.25rem 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+  }
+  
+  /* Hover effects */
+  .timeline-item:hover .timeline-content {
+   background: linear-gradient(to right, #009dff, #ff00ff);
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  }
+
+  
+
 ::-webkit-scrollbar{
     width: 20px;
 }
